@@ -6,13 +6,103 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <h3>Tutorial Assignment: 1_2_basic_html </h3>
+    <h1>Top 10 ranked NFTs by volume</h1>
+    <h3><em>Data pulled from <a href="opensea.io">OpenSea.io</a> 2/21/2022</em></h3>
     <table>
-      <!-- Add your table data here -->
+      <thead>
+        <tr>
+          <th>Collection</th>
+          <th class = "Ether">Floor price (Ethereum)</th>
+          <th class = "USD">Floor price (USD)</th>
+          <th>Owners (thousand)</th>
+          <th>Items (thousand)</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>NFT Worlds</td>
+        <td>16</td>
+        <td>41,487.68</td>
+        <td>4.6</td>
+        <td>10</td>
+      <tr>
+        <td>Azuki</td>
+        <td>12.59</td>
+        <td>32,645.62</td>
+        <td>5.4</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>mfers</td>
+        <td>4.6</td>
+        <td>11,927.71</td>
+        <td>5.1</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Edenhorde</td>
+        <td>0.85</td>
+        <td>2,204.03</td>
+        <td>3.7</td>
+        <td>8.7</td>
+      </tr>
+      <tr>
+        <td>3Landers</td>
+        <td>1.65</td>
+        <td>4,278.42</td>
+        <td>4.7</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Tasty Bones XYZ</td>
+        <td>1.45</td>
+        <td>3,759.82</td>
+        <td>3.5</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Bored Ape Yacht Club</td>
+        <td>92</td>
+        <td>238,554.16</td>
+        <td>6.3</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>CatBlox Genesis Collection</td>
+        <td>0.79</td>
+        <td>2,048.45</td>
+        <td>5.6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>G.rilla OFFICIAL</td>
+        <td>1.13</td>
+        <td>2,930.07</td>
+        <td>4.6</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Mutant Ape Yacht Club</td>
+        <td>17.99</td>
+        <td>46,647.71</td>
+        <td>11.8</td>
+        <td>18</td>
+      </tr>
     </table>
-    <svg>
-      <!-- Add your rectangles in here -->
+    <svg style="width:600px; height:300px;">
+      <defs>
+        <linearGradient id="gradient" gradientTransform="rotate(45)">
+          <stop offset="5%"  stop-color="LightSteelBlue" />
+          <stop offset="30%"  stop-color="salmon" />
+          <stop offset="95%" stop-color="gold" />
+        </linearGradient>
+      </defs>
+      <rect x=30 y=10 width="90%" height="90%" fill="#2081E2" margin="center"></rect>
+      <rect x=60 y=23 width="80%" height="80%" fill="white"></rect>
+      <circle fill="LightCoral" cx="255" cy="100" r="50" />
+      <circle fill="Thistle" cx="255" cy="185" r="50" />
+      <circle fill="PaleGreen" cx="345" cy="100" r="50" />
+      <circle fill="url('#gradient')" cx="345" cy="185" r="50" />
     </svg>
+    <img src="NFTs.jpeg" alt="CryptoPunks"/>
   </body>
 </html>

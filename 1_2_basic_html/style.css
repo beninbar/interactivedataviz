@@ -1,19 +1,64 @@
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 16px;
   padding: 1em;
+  margin: auto;
+  width: 50%;
+  background: linear-gradient(#0A1416, 10%, #D5E8EB);
+}
+
+html {
+  min-height: 100%;
 }
 
 h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+  font-size: 2em;
+  text-align: center;
+  color: white;
 }
 
 h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+  font-size: 1.25em;
+  text-align: center;
+  color: white;
 }
 
 p {
   font-size: 1em;
+}
+
+table {
+  padding: 2%;
+  margin: auto;
+}
+
+thead {
+  color: black;
+  text-align: left;
+}
+
+th {
+  text-decoration: underline;
+}
+
+td {
+  border-bottom: 1px solid black;
+  padding: 1%;
+}
+
+.Ether {
+  color: #2081E2;
+}
+.USD {
+  color: green;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
 }
