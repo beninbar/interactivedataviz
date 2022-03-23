@@ -2,18 +2,22 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   padding: 1em;
-}
-
-h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+  background-color: #E2E0F1;
+  margin: auto;
 }
 
 h3 {
   font-size: 2em;
-  margin: 0.25em 0;
+  margin: 0 auto;
+  text-align: center;
 }
 
-p {
-  font-size: 1em;
+#barchart {
+  position: relative;
+  transform: translate(10%, 10%);
+}
+
+rect {
+  fill: darkslateblue;
+  stroke: black;
 }
