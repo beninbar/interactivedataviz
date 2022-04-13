@@ -1,17 +1,26 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  padding: 1em;
+  margin: auto;
+  width: 50%;
+  background-color: beige;
 }
 
-h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  position: absolute;
+  display: inline-block;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p {
