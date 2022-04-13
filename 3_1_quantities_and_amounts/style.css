@@ -1,7 +1,16 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px;
+  margin: auto;
+  width: 50%;
   padding: 1em;
+  background: beige;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -10,10 +19,61 @@ h1 {
 }
 
 h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  color: black;
+  position: absolute;
+  display: inline-block;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-p {
-  font-size: 1em;
+h3:hover {
+  background-color:#61e561;
+  color: white;
+}
+
+svg {
+  background-color: black;
+  padding: 30px;
+  overflow: visible;
+  z-index: -1;
+}
+
+.tick {
+  visibility: hidden;
+}
+
+label {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  transform: translate(-20%, -22%);
+  z-index: 1;
+  color: white;
+  font-size: 1.5em;
+}
+
+#dropdown {
+  position: absolute;
+  top: 20%;
+  right: 17%;
+  transform: translate(-20%, -17%);
+  z-index: 1;
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1px;
+  width: 100px;
+  font-size: 15px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+  box-shadow: 0 2px 5px white;
+}
+
+#dropdown:hover {
+  color: black;
+  background-color: white;
 }
